@@ -1,0 +1,63 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    font: 15px sans-serif;
+    text-align: center;
+}
+
+.fadeout{
+    animation: fadeOut 3s;
+    animation-fill-mode: both;
+}
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*.screen{
+     display: block;
+     font-size: 10px;
+ }
+.screen p{
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid gray;        
+}*/
+
+.count{
+	font-size: 200%;    
+}
+.countdown{
+     font-size: 200%;
+     text-align: center;
+     vertical-align: middle;
+}
+
+.text-input{
+    font-size: 200%;
+    text-align: right;
+    vertical-align: middle;
+    width: 120px;
+}
+
+.footer {
+    position: fixed;    /* フッターの固定 */
+    bottom: 60px;       /* 位置(下60px) */
+    width: 90%;
+}
+
+img {
+    max-width: 80%;
+    margin: 30px;
+}
+
+.timeOverImage{
+    display: none;
+}
+
+

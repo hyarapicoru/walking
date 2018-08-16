@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+
+body {
+    background-color: #DDDDDD; 
+    font: 15px sans-serif;
+    min-height: 100%;
+    margin: 0 auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+    transition: opacity .8s ease;
+}
+
+.fadein{
+    animation: fadein 1s;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
